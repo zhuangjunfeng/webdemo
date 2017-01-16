@@ -175,8 +175,7 @@ ul>span{
 }
 .block span{
 	padding-bottom: 10px;
-	font-size: 14px;
-	font-weight: bold;
+	font: bold 14px Verdana;
 	line-height: 80px;
 	color: #fff;
 	border-bottom: 4px solid #fff;
@@ -193,8 +192,7 @@ ul>span{
 	margin-right: 500px;
 }
 .title{
-	font-size: 20px;
-	font-weight: bold;
+	font:bold 20px Verdana;
 }
 .title+p{
 	font-size: 12px;
@@ -246,8 +244,7 @@ ul>span{
 }
 .location  h2{
 	padding-bottom: 68px;
-	font-size: 22px;
-	font-weight: normal;
+	font: normal 22px Verdana;
 	color: #fff;
 }
 .about-us{
