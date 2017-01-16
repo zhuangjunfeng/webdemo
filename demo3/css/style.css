@@ -1,0 +1,142 @@
+/*通用样式*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+}
+a{
+	text-decoration: none;
+}
+header,.main,footer{
+	width: 100%;
+	min-width: 1300px;
+}
+.clear{
+	clear: both;
+}
+.block{
+	display: block;
+}
+.inline-block{
+	display: inline-block;
+}
+/*Head*/
+header{
+	color: #fff;
+	background-color: #362d30;
+	border-bottom: 2px solid #f63d3d;
+}
+header img{
+	padding-left:94px; 
+	vertical-align: middle;
+}
+header p{
+	display: inline-block;
+	padding: 31px 0;
+	font: bold 30px Verdana;
+}
+nav dl{
+	float: right;
+	padding-right: 30px;	
+}
+header dt {
+	display: inline-block;
+	margin: 0 40px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+header dt a{
+	line-height: 88px;
+	color: #fff;
+}
+header dt.active{
+	border-bottom: 2px solid #f63c3d;
+}
+/*header样式结束boder样式开始*/
+.main{
+	margin:80px 0 0 96px;
+}
+aside{
+	float: left;
+	width: 164px;
+	text-align: center;
+	border-top: 5px solid #f74c4d;
+	border-radius: 5px;
+}
+aside dl{
+	border:3px solid #eee;
+	border-top: none;
+	opacity: 50%;
+}
+aside dt p{
+	font: bold 24px/50px Verdana;
+}
+aside img{
+	padding-top: 22px;
+	border-top: 2px solid #eee;
+	opacity: 50%;
+}
+aside span{
+	display: block;
+	margin-bottom: 20px;
+}
+aside dt.active{
+	border-left: 3px solid #f85556
+}
+.production{
+	float: left;
+	width: 890px;
+	margin: 0 0 80px 138px;
+	background-color: #f8f8f8;
+	box-shadow: 5px 5px 10px #eee;
+}
+.part1,.part2{
+	float: left;
+	padding: 84px 0 0 38px;
+}
+.part2 p:nth-child(n+2){
+	width: 310px;
+	padding: 15px 0;
+	font-size: 16px;
+}
+.last-one{
+	margin-left: 306px;
+}
+/*End Main */
+/*Footer*/
+footer{
+	background-color: #31282b;
+	color: #fff;
+}
+footer div p:before{
+	position: relative;
+	right: 40px;
+	content: url(../imge/logo2.png);
+	vertical-align: middle;
+}
+footer div p{
+	position: relative;
+	top: -38px;
+	left: 130px;
+	font: bold 36px Verdana;
+}
+footer div{
+	padding-right: 298px;
+}
+footer dl{
+	padding:0 25px 44px 25px;
+}
+.title{
+	padding-bottom: 34px;
+	font-size: 22px;
+}
+footer dl dt{
+	font-size: 16px;
+
+}
+.focus-us{
+	padding-top: 40px;
+}
+.focus-us img{
+	display: block;
+}
