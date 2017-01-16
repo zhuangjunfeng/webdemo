@@ -2,6 +2,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: Verdana;
 	list-style: none;
 }
 img{
@@ -10,8 +11,12 @@ img{
 a{
 	text-decoration: none;
 }
-.container{
-	min-width: 1300px;
+div>span{
+	color: #fff;
+}
+header,.main,footer.wrapper{
+	min-width: 1200px;
+	max-width: 1366px;
 }
 .clear{
 	clear: both;
@@ -22,278 +27,263 @@ a{
 .block{
 	display: block;
 }
-/*头部样式开始*/
+/*head*/
 header{
 	width: 100%;
 	background:#352d2f;
 }
 nav{
+	height: 70px;
 	border-bottom: 2px solid ;
 	border-color: #4a4244;
-	height: 70px;
+}
+nav dl{
+	display: inline-block;
 }
 .logo{
 	padding: 0 46px;
 }
-nav ul{
-	display:inline-block;
-}
-
-
-nav li{
+nav dt{
 	display: inline-block;
 	padding: 0 22px;
-	color: #655e60;
 	line-height: 70px;
-}
-nav li span{
 	color: #655e60;
+}
+nav dt span{
 	padding: 26px 0;
 	line-height: 70px;
+	color: #655e60;
 }
-nav li span:hover{
+nav dt span:hover{
 	color: #fff;
 	border-bottom: 2px solid;
 	border-color: #fff;
 	cursor: pointer;
 }
 nav select{
+	margin: 0 26px 0 132px;
 	background-color: #655e60;
 	border-color: #655e60;
-	margin: 0 26px 0 132px;
 }
 img:last-child{
 	padding-left: 22px;
 	border-left: 1px solid #655e60;
 }
 
-.description{
+.content{
 	width: 100%;
 	height: 1000px;
 	margin-bottom: 60px;
 }
-.description>p{
+.content>p{
+	width: 924px;
+	margin: auto;
+	padding: 82px 0 34px;
 	font-size: 74px;
 	color: #fff;
-	padding-bottom: 34px;
 }
-.description p:first-child{
-	padding-top: 82px;
-}
-div>span{
-	color: #fff;
-}
-.description>div{
+.content>div{
 	display: inline-block;
-	width: 230px;
 	margin-top: 134px;
 	padding: 17px 22px;
+	width: 230px;
 	border:2px solid #fff;
 }
-.description ul{
+.content ul{
 	margin-top: 178px;
 }
 ul>span{
-	margin-top: 14px;
 	display: block;
+	margin-top: 14px;
 	color: #c2c0c1;
 }
-/*头部样式结束*/
-/*boder样式开始*/
-/*第一部分*/
-#boder{
+/*End Head*/
+/*Main*/
+/*first part*/
+.main{
 	width: 100%;
 	height: 1790px;
 }
 
-#boder .firstp{
-	color: #000;
+.service{
+	width: 772px;
+	margin: 0 auto 24px auto;
 	font-size: 26px;
-	padding: 0;
-	margin-bottom: 24px;
+	color: #000;
 }
 
-.inline-div{
+.explore-more{
 	display: inline-block;
-	margin-top: 25px;
-	margin-bottom: 60px;
+	margin: 25px 0 60px;
 }
-.inline-div a {
+.explore-more a {
+	padding:  25px 115px;
 	color: #fff;
 	background-color: #f63c3c;
-	padding:  25px 115px;
 	}
-/*第二部分*/
-.half-wide-div{
-	text-align: left;
+/*second part*/
+.project1{
 	float: left;
 	width: 50%;
 	height: 960px;
+	text-align: left;
 	background-color: #f63c3c;
 }
-.half-wide-div section{
+.project1 h1{
 	padding-top: 570px;
 	margin-left: 112px;
-	font-size: 20px;
+	font: normal 20px Verdana;
 	color: #f97676;
 }
-.half-wide-div p:nth-child(2) {
-	padding-top: 36px;
-	padding-bottom: 40px;
+.project1 p:nth-child(2) {
+	padding: 36px 0 40px;
 	margin-left: 112px;
 	font-size: 40px;
 	color: #fff;
 }
-.half-wide-div p:nth-child(n+3) {
-	padding-bottom: 10px;
-	margin-left: 112px;
+.project1 p:nth-child(3) {
+	width: 500px;
+	margin: auto;
+	padding: 0 0 10px 58px;
 	font-size: 14px;
 	color: #f97c7c;
 }
-.float-half-wide-div{
+.project2{
 	float: right;
 	width: 49.5%;
 	height: 960px;
 	background-color: #30282a;
 }
-.float-half-wide-div div{
+.project2 div{
 	padding: 334px 0 48px 110px;
 	border-bottom: 1px solid #555;
 }
-.float-half-wide-div p:nth-child(1){
+.project2 h1{
 	padding-bottom: 19px;
-	padding-top: 0px;
 	font-size: 40px;
 	color:#fff;
 }
-.float-half-wide-div p:nth-child(2){
+.project2 p{
 	font-size: 14px;
 	color: #5b5456;
 }
-a.block{
+.block{
+	float: left;
 	width: 100%;
 	min-width: 1300px;
 	background-color: #30282a;
-	float: left;
 }
-a.block span{
+.block span{
+	padding-bottom: 10px;
 	font-size: 14px;
 	font-weight: bold;
-	color: #fff;
 	line-height: 80px;
-	padding-bottom: 10px;
+	color: #fff;
 	border-bottom: 4px solid #fff;
 }
-/*第三部分*/
-.part{
+/*third part*/
+.summary{
 	float: left;
 	width: 500px;
 	padding-left: 90px;
 	padding-top: 80px;
 
 }
-.last-part{
+.join-us{
 	margin-right: 500px;
 }
 .title{
-	padding: 0;
 	font-size: 20px;
 	font-weight: bold;
 }
-.content{
-	color: #555;
+.title+p{
 	font-size: 12px;
+	color: #555;
 }
-.box-container div:nth-child(1){
+.connect-us div:nth-child(1){
 	margin-left:90px; 
 }
-.box{
+.friend-link{
+	float: left;
 	width: 270px;
 	height:196px;
 	margin: 46px 10px 0 10px;
 	background-color: #30282a;
-	float: left;
 }
-.box img{
+.friend-link img{
 	position: relative;
 	left: 108px;
 	top:58px;
 }
-.box span{
+.friend-link span{
 	position: relative;
 	left: 30px;
 	top:98px;
 }
-/*boder结束footer样式开始*/
-.first-part{
+/*End Main*/
+/*Footer*/
+.location{
 	width: 100%
 	min-width:1300;
 	height: 600px;
 	margin-top: 54px;
 	background-color: #30282a;
 }
-.first-part div{
+.location div{
 	position: relative;
 	left: 390px;
 	top: 156px;
 	width: 570px;
 	background-color: #f63c3c;
 }
-.first-part div img{
-	padding-top: 60px;
-	padding-bottom: 24px;
+.location div img{
+	padding: 60px 0 24px;
 }
-.first-part  p:nth-child(2){
+.location  p{
+	padding-bottom: 24px;
 	font-size: 12px;
-	padding-bottom: 24px;
 	color: #fff;
 }
-.first-part  p:nth-child(3){
-	font-size: 22px;
-	color: #fff;
+.location  h2{
 	padding-bottom: 68px;
+	font-size: 22px;
+	font-weight: normal;
+	color: #fff;
 }
-.second-part{
-	padding-left: 60px;
-	padding-top: 58px;
+.about-us{
+	padding: 58px 0 0 58px;
 }
-.second-part div{
+.about-us div{
 	float: left;
 	margin: 0 10px;
 	width: 30%;
 	min-width: 400px;
 }
-.second-part  .first-p{
+.about-us  h1{
 	margin-bottom:44px ;
 	padding-bottom: 20px;
 	font-size: 20px;
-	font-weight: bold;
 	border-bottom: 2px solid #30282a;
 }
-.second-part  p:nth-child(n+2),.special{
+.about-us  p:nth-child(n+2),.second-col p:first-child{
 	font-size: 10px;
 }
 .second-col{
 	position: relative;
-	padding: 0;
-	margin:0;
 	top: -56px;
 	left:220px; 
 }
-.third-part{
+.copyright{
 	padding-top: 24px;
 	border-top: 2px solid #e5e5e5;
 	font-size:10px; 
 }
-.third-part p:first-child{
-	padding-left: 60px;
+.copyright p:first-child{
 	float: left;
+	padding-left: 60px;
 }
-.third-part>p:before{
-	vertical-align: middle;
-	content: url(../imge/icon9.png);
-}
-.third-part div{
+
+.copyright div{
 	float: right;
 	padding-right: 42px;
 }
